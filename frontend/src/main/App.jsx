@@ -14,12 +14,7 @@ export default props =>
     <BrowserRouter>
         <div className="app">
             <Logo />
-            <aside className="menu-area">
-                <nav className='menu'>
-                    <Nav link='/home' icon='home' page='Início' />
-                    <Nav link='/users' icon='users' page='Usuários' />
-                </nav>
-            </aside>
+            <Nav home='home' users='users' />
             <Routes />
             <Footer />
         </div>
